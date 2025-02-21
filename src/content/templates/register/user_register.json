@@ -1,0 +1,7 @@
+{
+    "text": "Welcome {name} to {company_name} Education Services. You have successfully enrolled in text message notifications.",
+    "email": {
+        "subject": "Welcome to the {company_name} Education Services",
+        "body": "<p>Hey {name},</p><p>This email is being sent to notify you that an account has been created for you on our training platform. If you have any questions, please call our office at {company_phone}. Please log in to your account here: {company_url} and change your password.</p><p>Your username: {user_email}</p><p>Your temporary password: {user_password}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

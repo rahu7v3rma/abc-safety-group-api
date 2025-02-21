@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. This is {company_name}. Here is the link to the {form_type} for your course {course_name}. Please note that you cannot receive your course completion certificate without completing and taking this {form_type}. {form_url}",
+    "email": {
+        "subject": "{form_type} is ready for {course_name}",
+        "body": "<p>Hey {name},</p><p>Here is the link to the {form_type} for your course {course_name}.<p>{form_url}</p><p>Please note that you cannot receive your course completion certificate without completing and taking this {form_type}.</p> Please call us at {company_phone} if you have any questions.</p><p>Learning Management System Login: {company_url}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

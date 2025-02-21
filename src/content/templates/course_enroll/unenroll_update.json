@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We regret to inform you that you have been removed from {course_name}. We apologize for the inconvenience. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "{course_name} enrollment revoked",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We regret to inform you that you have been removed from {course_name}. We apologize for the inconvenience. Please call us at {company_phone} if you have any questions.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

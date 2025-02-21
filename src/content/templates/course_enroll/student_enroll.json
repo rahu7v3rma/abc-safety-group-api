@@ -1,0 +1,7 @@
+{
+    "text": "Hey {name}, You have been registered for {course_name} starting on {first_class_dtm} taught by {instructors}.",
+    "email": {
+        "subject": "New course registration",
+        "body": "<p>Hey {name},</p><p>You have been registered for {course_name} starting on {first_class_dtm} taught by {instructors}. If you have any questions, please call {course_number} or email {course_email}.</p><p>Remote Link: {remote_link}.</p><p>Address: {address}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

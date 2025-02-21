@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We regret to inform you that the course {course_name} starting on {first_class_dtm} has been canceled. You are receiving this message because you are currently registered for the course. We apologize for the inconvenience. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "{course_name} canceled",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We regret to inform you that the course {course_name} starting on {first_class_dtm} has been canceled. You are receiving this message because you are currently registered for the course. We apologize for the inconvenience. Please call us at {company_phone} if you have any questions.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

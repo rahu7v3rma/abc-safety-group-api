@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We have have removed the class starting on {original_start_time} in the course {course_name}. You are receiving this notification because you are registered for the course. Please call us at {company_phone} if you have any questions. We apologize for any inconvenience this may cause.",
+    "email": {
+        "subject": "{course_name} class removed",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We have deleted the class starting on {original_start_time} in the course {course_name}. You are receiving this notification because you are registered for the course. Please call us at {company_phone} if you have any questions. We apologize for any inconvenience this may cause.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

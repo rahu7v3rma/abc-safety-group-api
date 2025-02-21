@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. Here is a copy of of the published content for your course {course_name}. You are receiving this notification because you are registered for this course. {email_statemnt} Please call us at {company_phone} if you have any questions. We apologize for any inconvenience this may cause.",
+    "email": {
+        "subject": "{course_name} class content",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. Here is a copy of of the published content for your course. You are receiving this notification because you are registered for this course. Please call us at {company_phone} if you have any questions. We apologize for any inconvenience this may cause.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

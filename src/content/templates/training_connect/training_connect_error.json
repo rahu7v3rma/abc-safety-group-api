@@ -1,0 +1,6 @@
+{
+    "email": {
+        "subject": "Training Connect Error",
+        "body": "<p>Hello,</p><p>This email is being sent to notify of an error.</p><p>{error_message}</p><p>Respectfully,</p><p>DoIT Soulutions training connect automation</p>"
+    }
+}

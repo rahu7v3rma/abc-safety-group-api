@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Certificate</title>
+      <link href="output.css" rel="stylesheet" />
+   </head>
+   <body class="w-full min-h-screen flex flex-col">
+      <div class="flex-1 flex flex-col border-[35px] border-abc_darkblue">
+         <div
+            class="flex-1 flex flex-col justify-between py-[10px] px-[35px] border-[35px] border-abc_orange"
+         >
+            <div class="flex items-center justify-between">
+               <div class="flex items-center">
+                  <img width="131.74" height="116" src="./img/logo.png" />
+                  <div class="text-center ml-[20px]">
+                     <p class="text-base font-semibold leading-6">
+                        147 Prince Street
+                        <br />Brooklyn, NY 11201 <br />info@ABCSafetyGroup.com
+                        <br />718-307-8133
+                     </p>
+                  </div>
+               </div>
+               <div class="text-right">
+                  <p class="text-2xl font-semibold">
+                     NYC DOB COURSE PROVIDER ID: 4Q01
+                  </p>
+                  <p class="mt-[10px] text-2xl font-semibold">
+                     PROGRAM ADMINISTRATOR:
+                     <img
+                        class="inline-block"
+                        width="135"
+                        height="47.48"
+                        src="./img/handsign.png"
+                     />
+                  </p>
+               </div>
+            </div>
+            <div class="text-center max-w-3xl w-full mx-auto">
+               <p class="text-5xl font-semibold text-abc_blue">
+                  CERTIFICATE OF COMPLETION
+               </p>
+               <p class="text-4xl font-medium mt-[20px]">THIS CERTIFIES THAT</p>
+               <p class="text-4xl font-semibold mt-[15px]">
+                  {student_full_name}
+               </p>
+               <p class="text-2xl font-medium mt-[15px]">
+                  has successfully completed the training program requirement
+                  for
+               </p>
+               <p class="text-4xl font-semibold mt-[10px]">{certificate_name}</p>
+               <div class="mt-[25px] flex justify-between">
+                  <div class="min-w-[16rem] w-auto divide-y-[5px] divide-black">
+                     <p class="text-2xl pb-[5px] font-medium">
+                        {completion_date}
+                     </p>
+                     <p class="text-sm pt-[10px]">COURSE COMPLETION DATE</p>
+                  </div>
+                  <div class="min-w-[16rem] w-auto divide-y-[5px] divide-black">
+                     <p class="text-lg pb-[5px] font-medium">
+                        {instructor_full_name}
+                     </p>
+                     <p class="text-sm pt-[10px]">DOB AUTHORIZED INSTRUCTOR</p>
+                  </div>
+               </div>
+               <p class="mt-[20px] leading-8 italic">
+                  In accordance with New York City Building Code Section 3302.1
+                  and 3321 (Local Law 196 of 2017).
+                  <br />
+                  This certification provides Site Safety Training Credits which
+                  may be used to obtain an SST card.
+               </p>
+            </div>
+            <div class="flex items-end justify-between">
+               <p class="text-3xl font-semibold mb-[10px]">
+                  CERTIFICATE #:
+                  <span class="font-normal">{certificate_number}</span>
+               </p>
+               <img width="182.74" height="117.75" src="./img/authorized.png" />
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

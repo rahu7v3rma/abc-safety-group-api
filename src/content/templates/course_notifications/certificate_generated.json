@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. This is {company_name}. Thank you for taking our course {course_name}. Your course completion certificate is available online in your student portal. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "Certificate Generated for course {course_name}",
+        "body": "<p>Hey {name},</p><p>Thank you for taking our course {course_name}.<p>Your course completion certificate is available online in your student portal.</p> Please call us at {company_phone} if you have any questions.</p><p>Learning Management System Login: {company_url}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

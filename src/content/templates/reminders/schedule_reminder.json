@@ -1,0 +1,7 @@
+{
+    "text": "Hey {name}, This is {company_name}. Just a reminder your course {course_name} will be starting at {start_time} in {time_till_class}. Please call us at {company_phone} if you have any questions. Remote Link: {remote_link} Address: {address}",
+    "email": {
+        "subject": "Upcoming class for {course_name}",
+        "body": "<p>Hey {name},</p><p>This is {company_name}. Just a reminder your course {course_name} will be starting at {start_time} {time_till_class}. Please call us at {company_phone} if you have any questions.</p>{location}<p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "email": {
+    "subject": "Certificate Upload Error Notification",
+    "body": "<p>Dear {email},</p><p>We have completed the processing of your bulk certification import for the file: ({file_name}). However, we encountered issues with following entries.</p><div>{failed_users}</div><p>Please review the certificate information and resubmit the updated information at your earliest convenience.</p><p>If you need further assistance, please do not hesitate to contact our support team.</p><p style='margin-bottom:0px;'>Best regards,</p><p style='margin:0px;'>{company_name} Support Team</p><p style='margin:0px;'>Phone: {company_phone}</p><p style='margin:0px;'>Email: {company_email}</p>"
+  }
+}

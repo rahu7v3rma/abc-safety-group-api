@@ -1,0 +1,6 @@
+{
+  "email": {
+    "subject": "Assistance Required with Your Student Import",
+    "body": "<p>Dear {email},</p><p>We hope this message finds you well. We are writing to inform you that during the processing of your student import file ({file_name}), we encountered a minor hiccup with the following entries:</p><div>{failed_users}</div><p>We would appreciate it if you could provide this detail and resubmit the updated information at your earliest convenience.</p><p>Thank you for your attention to this matter and for your ongoing cooperation. Please feel free to reach out if you need any assistance or have questions via our support tab.</p><p style='margin-bottom:0px;'>Best regards,</p><p style='margin:0px;'>{company_name} Support Team</p><p style='margin:0px;'>Phone: {company_phone}</p><p style='margin:0px;'>Email: {company_email}</p>"
+  }
+}

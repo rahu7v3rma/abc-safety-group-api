@@ -1,0 +1,6 @@
+{
+    "email": {
+        "subject": "Unable to finish the process for your expedited register.",
+        "body": "<p>Hey {email},</p><p>This email is being sent to notify you that while running an expedited register something went wrong and we were unable to update the user. Please contact us for further assistance on this matter.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

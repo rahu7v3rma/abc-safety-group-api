@@ -1,0 +1,7 @@
+{
+    "text": "Hey {name}, You have been registered for {bundle_name}. If you have any questions feel free to reach out.",
+    "email": {
+        "subject": "New bundle registration",
+        "body": "<p>Hey {name},</p><p>You have been registered for {bundle_name}. If you have any questions, please call {company_phone} or email {company_email}.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

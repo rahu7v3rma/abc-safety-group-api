@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We are contacting you to let you know your registration status for {course_name} has been updated to {new_status}. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "{course_name} enrollment status update.",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We are contacting you to let you know your registration status for {course_name} has been updated to {new_status}. Please call us at {company_phone} if you have any questions.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

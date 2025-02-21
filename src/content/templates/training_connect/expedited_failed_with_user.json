@@ -1,0 +1,6 @@
+{
+  "email": {
+    "subject": "Action Required: User Registration Issue",
+    "body": "<p>Dear {email},</p><p>We hope this message finds you well. During the processing of new user registrations, we identified an issue that requires your attention. We kindly request your assistance in resolving this matter to ensure accurate and complete user profiles are maintained:</p><ul><li>First Name: {first_name}</li><li>Last Name: {last_name}</li><li>Phone Number: {phone_number}</li><li>Email: {email}</li></ul><p>Issue identified: {reason}</p><p>Next Steps: {solution}</p><p>Please review the provided details and submit the necessary corrections at your earliest convenience. Your prompt response will greatly assist in optimizing our registration process.</p><p>Thank you for your attention to this important matter. Should you require any further assistance, please do not hesitate to contact our support team.</p><p style='margin-bottom:0px;'>Best regards,</p><p style='margin:0px;'>{company_name} Support Team</p><p style='margin:0px;'>Phone: {company_phone}</p><p style='margin:0px;'>Email: {company_email}</p>"
+  }
+}

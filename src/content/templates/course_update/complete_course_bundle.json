@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We are contacting you to inform you that your {course_name} has been marked as complete. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "{course_name} completion notification",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We are contacting you to inform you that your {course_name} has been marked as complete. Please call us at {company_phone} if you have any questions.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

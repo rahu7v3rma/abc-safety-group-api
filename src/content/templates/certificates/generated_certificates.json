@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. We are contacting you to let you know your certificate for {course_name} has been created. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "{course_name} certificate creation notification.",
+        "body": "<p>Hey, {name},</p><p>This is {company_name}. We are contacting you to let you know your certificate for {course_name} has been created. Attached is a copy of your certificate. Please feel free to reach out if you have any questions.</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

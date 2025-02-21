@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. This is {company_name}. Here are the details for your class in course {course_name}. Time: {class_time}{remote_link}{address}. Please note that you cannot receive your course completion certificate without attending this class",
+    "email": {
+        "subject": "{course_name} class details",
+        "body": "<p>Hey {name},</p><p>Here are the details for your class in course {course_name}.<p>Time: {class_time}</p>{remote_link}{address}<p>Please note that you cannot receive your course completion certificate without attending this class</p> Please call us at {company_phone} if you have any questions.</p><p>Learning Management System Login: {company_url}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

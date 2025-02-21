@@ -1,0 +1,7 @@
+{
+    "text": "Hey {name}, You have been assigned as an instructor to the {course_name} course, with the first class starting at {first_class_dtm}.",
+    "email": {
+        "subject": "New course assignment",
+        "body": "<p>Hey {name},</p><p>You have been assigned as an instructor to the {course_name} course, with the first class starting at {first_class_dtm}. Please call us at {company_phone} if you have any questions.</p><p>Learning Management System Login: {company_url}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

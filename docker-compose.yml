@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - 6379
+    restart: unless-stopped
+    command: redis-server --requirepass ""
+    volumes:
+      - abc_redis:/var/lib/redis:rw
+    networks:
+      - abc
+
+  api:
+    restart: always
+    build: ./src
+    image: 127.0.0.1:5000/abc_api
+    env_file:
+      - .env
+    ports:
+      - 3002:8080
+    networks:
+      - abc
+    deploy:
+      replicas: 1
+    volumes:
+      - ./src/content/:/source/src/content/:rw
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+volumes:
+  abc_redis:
+
+networks:
+  abc:
+    external: True
+
+# docker network create --driver overlay abc

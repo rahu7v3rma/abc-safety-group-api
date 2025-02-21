@@ -1,0 +1,6 @@
+line-length = 79
+show-fixes = true
+
+[lint]
+ignore = ["B008", "G001", "G002", "G003", "G004", "ANN401", "ANN101", "ANN102", "ANN001"]
+select = ["F", "I", "N", "E", "YTT", "ANN", "ASYNC", "COM", "C4", "ISC", "ICN", "G", "PIE", "T20", "PYI", "Q"]

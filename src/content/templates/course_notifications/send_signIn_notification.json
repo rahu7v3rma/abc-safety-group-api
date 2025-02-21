@@ -1,0 +1,7 @@
+{
+    "text": "Hey, {name}. This is {company_name}. Here is the link to the sign in sheet for {course_name}. Please note that you cannot receive your course completion certificate without completing this sign in sheet. {sign_in_url}",
+    "email": {
+        "subject": "{course_name} sign in sheet",
+        "body": "<p>Hey {name},</p><pHere is the link to the sign in sheet for {course_name}.<p>{sign_in_url}</p><p>Please note that you cannot receive your course completion certificate without completing this sign in sheet.</p> Please call us at {company_phone} if you have any questions.</p><p>Learning Management System Login: {company_url}</p><p>Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}

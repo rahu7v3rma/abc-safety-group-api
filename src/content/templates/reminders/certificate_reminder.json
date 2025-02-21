@@ -1,0 +1,7 @@
+{
+    "text": "Hey {name}, This is {company_name}. Just a reminder your certificate {certificate_name}, certificate number: {certificate_number} completed on {completion_date} will be {certificate_msg} on {expiration_date}. Please call us at {company_phone} if you have any questions.",
+    "email": {
+        "subject": "Certificate {certificate_name} upcoming expiration",
+        "body": "<p>Hey {name},</p><p>This is {company_name}. Just a reminder your certificate {certificate_name}, certificate number: {certificate_number} completed on {completion_date} will be {certificate_msg} on {expiration_date}. Please call us at {company_phone} if you have any questions.Respectfully,</p><p>{company_name}</p><p>P: {company_phone}</p><p>E: {company_email}</p>"
+    }
+}
